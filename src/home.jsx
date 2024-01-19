@@ -1,20 +1,15 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import HeroSection from './components/heroSection';
 
-function Home() {
+const Home = () => {
+    const data = {
+        text: "naaz store"
+    }
     return (
         <React.Fragment>
-            <Wrapper className='test' >
-                HOME
-            </Wrapper>
-
+            <HeroSection myText={data} />
         </React.Fragment>
     )
-};
+}
 
-const Wrapper = styled.section`
-    background-color:${({ theme }) => theme.colors.bg};
-    height: 100vh;
-`
-
-export default Home;                
+export default Home;

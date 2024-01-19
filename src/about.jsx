@@ -1,9 +1,13 @@
 import React from 'react'
+import HeroSection from './components/heroSection';
 
 function About() {
+  const data = {
+    text: "Naaz ecommerce"
+}
   return (
     <React.Fragment>
-        ABOUT
+      <HeroSection myText={data} />
     </React.Fragment>
   )
 }
