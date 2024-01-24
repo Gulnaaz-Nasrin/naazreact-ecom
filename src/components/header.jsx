@@ -8,7 +8,7 @@ function Header() {
         <React.Fragment>
             <MainHeader>
                 <NavLink to="/" >
-                    <img src="./images/logo.png" alt="my-logo" className='logo' />
+                    <img src="./images/logo.png" alt="my-logo" />
                 </NavLink>
                 <Nav />
             </MainHeader>
@@ -26,7 +26,7 @@ const MainHeader = styled.header`
     position: relative;
 
     .logo{
-        height: 8rem;
+        height: 5rem;
     }
 `
 

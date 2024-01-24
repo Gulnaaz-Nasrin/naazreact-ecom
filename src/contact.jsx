@@ -33,52 +33,7 @@ const Contact = () => {
     }
   `;
 
-  return <Wrapper>
-    <h2 className="common-heading" >contact page</h2>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.
-      4496609828057!2d77.58874167474993!3d13.
-      070663787253917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-      1!3m3!1m2!1s0x3bae1925ed3bc12f%3A0x7b731ab2850d5f8b!2sPhoenix%20Mall%20Of%20Asia!5e0!3m2!1sen!2sin!4v1705736375854!5m2!1sen!2sin"
-      width="100%"
-      height="400"
-      style={{ border: 0 }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    >
-    </iframe>
-
-    <div className="container">
-      <div className="contact-form">
-        <form action="https://formspree.io/f/xoqgvgkv" method="POST" className="contact-inputs" >
-          <input
-            type="text"
-            placeholder="username"
-            name="username"
-            required
-            autoComplete="off"
-          />
-          <input
-            type="email"
-            name="Email"
-            placeholder="Email"
-            autoComplete="off"
-            required
-          />
-          <textarea
-            name="Message"
-            cols="30"
-            rows="10"
-            required
-            autoComplete="off"
-            placeholder="Enter Your Message" ></textarea>
-
-          <input type="submit" value="send" />
-        </form>
-      </div>
-    </div>
-  </Wrapper>;
+  return <Wrapper></Wrapper>;
 };
 
 export default Contact;
