@@ -3,8 +3,8 @@ import HeroSection from './components/heroSection';
 
 function About() {
   const data = {
-    text: "Naaz ecommerce"
-}
+    text: "The Wow Factor"
+  }
   return (
     <React.Fragment>
       <HeroSection myText={data} />
