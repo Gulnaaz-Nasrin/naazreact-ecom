@@ -5,7 +5,7 @@ import Trusted from './components/trusted';
 
 const Home = () => {
     const data = {
-        text: "naaz store"
+        text: "MALL of ASIA"
     }
     return (
         <React.Fragment>

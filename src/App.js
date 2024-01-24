@@ -10,6 +10,7 @@ import ErrorPage from "./errorPage";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 const App = () => {
   const theme = {
@@ -47,6 +48,7 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
+        <Footer />
       </Router>
     </ThemeProvider>
   </React.Fragment>;
