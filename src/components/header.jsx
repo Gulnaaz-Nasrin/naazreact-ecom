@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import Nav from './nav';
+import Navbar from './navbar';
 
 function Header() {
     return (
@@ -10,7 +10,7 @@ function Header() {
                 <NavLink to="/" >
                     <img src="./images/logo.png" alt="my-logo" className='logo' />
                 </NavLink>
-                <Nav />
+                <Navbar />
             </MainHeader>
         </React.Fragment>
     )
