@@ -35,7 +35,7 @@ const HeroSection = ({ myText }) => {
                         </div>
                     </div>
                 </div>
-            </Wrapper>;
+            </Wrapper>
         </React.Fragment>
     )
 }
